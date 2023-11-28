@@ -100,7 +100,7 @@ console.log("Total Months: ", totalMonths);
 
 if (finances[0][1]);
 const sum = finances.reduce((a,b)=> a+b);
-console.log(sum);
+console.log('Total profit is:' + sum);
 
 // Use totalMonths from previous to do totalPL/totalMonths = averageChange
 // Print averageChange to console/console.log()
