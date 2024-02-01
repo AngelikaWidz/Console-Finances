@@ -119,5 +119,4 @@ for (let i = 0; i < finances.length; i++) {
 
 // average change calculation
 let averageChange = totalChanges / (finances.length - 1);
-
 console.log("Average Change: " + averageChange.toFixed(2));
