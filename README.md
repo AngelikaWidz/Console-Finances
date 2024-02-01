@@ -9,10 +9,11 @@
   - [Questions](#questions)
   
   ## Description
-  This project explores processing data from arrays using JavaScript loops and array indexes to produce some calculations
+  This project explores processing data from arrays using JavaScript loops and array indexes to produce some calculations.
+  This basic functionality will allow for further exploration amongst more complex projects.
   
   ## Installation
-  No installation necessary for this project, just needs to be either cloned or explored using github pages.
+  No installation necessary for this project, just needs to be either cloned or explored using github pages at this link: https://angelikawidz.github.io/Console-Finances/
   
   ## Usage
   Used by accessing the console to reveal some data ran by JavaScript.
