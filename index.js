@@ -1,4 +1,4 @@
-var finances = [
+const finances = [
   ['Jan-2010', 867884],
   ['Feb-2010', 984655],
   ['Mar-2010', 322013],
@@ -90,3 +90,11 @@ var finances = [
 // Total months
 totalMonths = finances.length;
 console.log("Total Months: ", totalMonths);
+
+// let profitTotal to accumulate total 
+let profitTotal = 0;
+// for loop = looping through array
+for (let i = 0; i < finances.length; i++) {
+  profitTotal += finances[i][1];
+}
+console.log("Total: $" + profitTotal);
