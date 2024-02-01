@@ -1,4 +1,4 @@
- # README Generator
+ # Console Finances
   
   ## Table of Contents
   - [Description](#description)
