@@ -98,3 +98,26 @@ for (let i = 0; i < finances.length; i++) {
   profitTotal += finances[i][1];
 }
 console.log("Total: $" + profitTotal);
+
+// Changes
+let totalProfitLoss = 0;
+let totalChanges = 0;
+// storing monthly changes
+let changes = [];
+
+// Iterate through the array and sum up the profit/loss values
+for (let i = 0; i < finances.length; i++) {
+  totalProfitLoss += finances[i][1];
+
+  // Changes from 2nd month adds changes stores in 'changes' array
+  if (i > 0) {
+    let change = finances[i][1] - finances[i - 1][1];
+    totalChanges += change;
+    changes.push(change);
+  }
+}
+
+// average change calculation
+let averageChange = totalChanges / (finances.length - 1);
+
+console.log("Average Change: " + averageChange.toFixed(2));
